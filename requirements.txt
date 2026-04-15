@@ -1,0 +1,18 @@
+# Core ML stack
+torch>=2.1.0
+transformers>=4.40.0
+peft>=0.10.0
+bitsandbytes>=0.43.0          # QLoRA 4-bit quantization (Linux/CUDA)
+accelerate>=0.27.0
+datasets>=2.18.0
+
+# Config
+pyyaml>=6.0
+
+# Gunfolds (base codebase — install from local clone)
+# pip install -e /path/to/gunfolds
+# or: gunfolds @ git+https://github.com/sajadabvi/gunfolds.git
+
+# Optional experiment tracking
+# wandb>=0.17.0
+# mlflow>=2.12.0
